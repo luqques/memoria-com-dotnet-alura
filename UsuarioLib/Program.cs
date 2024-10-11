@@ -15,3 +15,7 @@ usuario.PadronizaTelefones();
 
 //912345678
 usuario.ExibeTelefones();
+
+var coordenada = new Coordenada(123.123, -321.312);
+
+Console.WriteLine(coordenada.ToString());
