@@ -18,4 +18,16 @@ usuario.ExibeTelefones();
 
 var coordenada = new Coordenada(123.123, -321.312);
 
-Console.WriteLine(coordenada.ToString());
+Console.WriteLine(coordenada);
+
+//////////////////
+
+var dto = new FormularioDto();
+dto.Nome = "Lucas";
+dto.Idade = 18;
+
+var dto2 = new FormularioDto();
+dto.Nome = "Lucas";
+dto.Idade = 18;
+
+Console.WriteLine(dto == dto2);
